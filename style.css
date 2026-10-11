@@ -1,0 +1,172 @@
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    background-color: #fff8f0;
+    color: #333;
+}
+
+header {
+    background-color: #8b2e1e;
+    color: white;
+    padding: 20px;
+
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+header h1 {
+    margin: 0;
+}
+
+nav a {
+    color: white;
+    text-decoration: none;
+    margin-left: 20px;
+    font-size: 16px;
+}
+
+nav a:hover {
+    text-decoration: underline;
+}
+
+.home {
+    height: 400px;
+    background-image: url("Spice-Garden.jpg");
+
+    background-size: cover;
+    background-position: center;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+.welcome-text {
+    background-color: rgba(0, 0, 0, 0.6);
+    padding: 25px;
+    border-radius: 10px;
+}
+
+.home h2 {
+    font-size: 40px;
+    color: white;
+    margin-top: 0;
+}
+
+.home p {
+    font-size: 20px;
+    color: white;
+}
+
+.button {
+    display: inline-block;
+    background-color: #8b2e1e;
+    color: white;
+
+    padding: 12px 25px;
+
+    text-decoration: none;
+    border-radius: 5px;
+
+    margin-top: 10px;
+}
+
+.button:hover {
+    background-color: #5e1d13;
+}
+
+#menu {
+    padding: 40px 10%;
+    text-align: center;
+}
+
+#menu h2 {
+    color: #8b2e1e;
+    font-size: 30px;
+}
+
+.menu-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 20px;
+}
+
+.food {
+    background-color: white;
+
+    width: 250px;
+
+    padding: 15px;
+
+    border-radius: 10px;
+
+    box-shadow: 0 2px 8px gray;
+
+    overflow: hidden;
+}
+
+
+.food img {
+    width: 100%;
+    height: 180px;
+
+    object-fit: cover;
+
+    border-radius: 8px;
+}
+
+.food h3 {
+    color: #8b2e1e;
+}
+
+
+.food p {
+    color: #555;
+}
+
+.food span {
+    font-weight: bold;
+    color: #e67e22;
+    font-size: 18px;
+}
+
+.about {
+    background-color: #fcfcfc;
+
+    padding: 40px 15%;
+
+    text-align: center;
+}
+
+.about h2 {
+    color: #8b2e1e;
+    font-size: 30px;
+}
+
+.about p {
+    line-height: 1.6;
+}
+
+.contact {
+    padding: 40px;
+    text-align: center;
+    background-color: #fcfcfc;
+}
+
+.contact h2 {
+    color: #8b2e1e;
+    font-size: 30px;
+}
+
+footer {
+    background-color: #8b2e1e;
+
+    color: white;
+
+    text-align: center;
+
+    padding: 15px;
+}
